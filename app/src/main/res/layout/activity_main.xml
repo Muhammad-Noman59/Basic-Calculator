@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+<!--    Made by Muhammad Noman-->
+
+<!--    If you need my service or you have any question then you can contact with me.-->
+
+<!--    WhatsApp number :  +923104881573-->
+
+<!--    LinkedIn account :  https://www.linkedin.com/in/muhammad-noman59-->
+
+<!--    Facebook account :  https://www.linkedin.com/in/muhammad-noman59-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="250dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C2070"
+            android:gravity="center_horizontal"
+            android:paddingStart="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="10dp"
+            android:text="Basic Calculation By Muhammad Noman"
+            android:textColor="#DCFFFFFF"
+            android:textSize="20sp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edtNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="12"
+        android:hint="Enter No 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtNo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="12"
+        android:hint="Enter No 2"
+        android:inputType="number" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:text="%" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
