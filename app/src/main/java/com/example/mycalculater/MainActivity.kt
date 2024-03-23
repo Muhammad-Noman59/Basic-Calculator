@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 //
 //        LinkedIn account :  https://www.linkedin.com/in/muhammad-noman59
 //
-//        Facebook account :  https://www.linkedin.com/in/muhammad-noman59
+//        Facebook account :  https://www.facebook.com/profile.php?id=100092720556743&mibextid=ZbWKwL
 
 
 
